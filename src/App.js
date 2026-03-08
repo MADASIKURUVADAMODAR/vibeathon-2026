@@ -5,7 +5,7 @@ import './App.css'
 // ═══════════════════════════════════════════════════════════
 //  🔧 CHANGE ONLY THESE 5 LINES TOMORROW
 // ═══════════════════════════════════════════════════════════
-const GEMINI_API_KEY = "AIzaSyAWEGwVLcPnbmqdktLQYq_8QnsYpYhXOck"
+const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_KEY
 const APP_TITLE      = "AI Assistant"
 const APP_TAGLINE    = "Your intelligent companion"
 const PLACEHOLDER    = "Ask me anything..."
